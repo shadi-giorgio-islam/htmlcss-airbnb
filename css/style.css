@@ -84,3 +84,11 @@ h2{
   color: white;
   text-shadow: 3px 3px #000;
 }
+footer{
+  margin-bottom: 0;
+  padding: 1%;
+  text-align: center;
+  background-color: #031432;
+  color: white;
+  font-size: 35px;
+}
