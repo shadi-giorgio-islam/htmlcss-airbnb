@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
+
+/* inizio nav */
+nav{
+  height: 82px;
+  background-color: #031432;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.menu{
+  list-style: none;
+  text-align: center;
+  line-height: 80px;
+}
+.menu .logo{
+  width: 150px;
+  height: 80px;
+  vertical-align: middle;
+}
+.menu li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu li:hover{
+  background-color: white;
+  border-bottom: 2px solid red;
+  color: black;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+.menu li:hover a{
+  color: black;
+}
+/* fine nav */
