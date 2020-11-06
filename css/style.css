@@ -30,7 +30,7 @@ nav{
   display: inline-block;
   padding: 0 20px;
 }
-.menu li:hover{
+.menu li:not(:first-child):hover{
   background-color: white;
   border-bottom: 2px solid red;
   color: black;
