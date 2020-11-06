@@ -46,7 +46,7 @@ nav{
 /* inizio main */
 .container{
   width: 100%;
-  margin: auto;
+  margin-top: 82px;
 }
 .biden{
   background-image: url('https://images.hdqwalls.com/wallpapers/joe-biden-ea.jpg');
